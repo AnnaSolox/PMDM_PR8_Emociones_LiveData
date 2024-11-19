@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmocionesFragment">
+
+    <ImageView
+        android:id="@+id/imagenEmocion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/imagenEmocion"
+        tools:src="@drawable/ic_sonrojado"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textoEmocion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textoEmocion"
+        tools:text="Vergüenza"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tituloEmocion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:text="@string/titulo"
+        style="@style/titulo"/>
+
+</FrameLayout>
